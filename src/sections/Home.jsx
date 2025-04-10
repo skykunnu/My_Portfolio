@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Shikhar from "../assets/Shikhar.jpeg"
 
-function Hero() {
+function Home() {
   return (
-<section className="min-h-screen flex items-center justify-center px-6 pt-20 pb-5 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460]">
+<section id='home' className="min-h-screen flex items-center justify-center px-6 pt-20 pb-5 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460]">
 <motion.div
         className="max-w-4xl mx-auto text-center"
         initial={{ opacity: 0, y: 30 }}
@@ -64,4 +64,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Home;

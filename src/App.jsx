@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Hero from './sections/Hero'
+import Home from './sections/Home'
 import About from './sections/About'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
@@ -13,7 +13,7 @@ function App() {
     
     <div className="bg-[#0a192f] text-white min-h-screen font-sans">
       <Navbar />
-      <Hero />
+      <Home />
       <About />
       <Experience />
       <Skills />
