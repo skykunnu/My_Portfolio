@@ -14,7 +14,7 @@ function Hero() {
       >
         <p className="text-[#00f2fe] text-lg">Hi, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold text-white mt-2">
-          Shikhar Khandelwal
+          Shikhar
         </h1>
         <img
           src={Shikhar}
