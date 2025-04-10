@@ -12,7 +12,7 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-[#00f2fe] text-lg">Hi, my name is</p>
+        <p className="text-[#00f2fe] text-lg">Hey, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold text-white mt-2">
           Shikhar Khandelwal
         </h1>
@@ -25,7 +25,7 @@ function Home() {
           I'm a Frontend Developer
         </h2>
         <p className="text-[#c0c0c0] mt-6 max-w-3xl mx-auto">
-          I’m focused on building responsive front-end web applications
+          focused on building responsive front-end web applications
           integrating back-end technologies.
         </p>
 
@@ -35,13 +35,13 @@ function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          <a href="#" className="hover:text-[#00f2fe] transition">
+          <a href="https://github.com/skykunnu" className="hover:text-[#00f2fe] transition">
             <FaGithub />
           </a>
-          <a href="#" className="hover:text-[#00f2fe] transition">
+          <a href="https://www.linkedin.com/in/shikhar-khandelwal-a6921a160/" className="hover:text-[#00f2fe] transition">
             <FaLinkedin />
           </a>
-          <a href="#" className="hover:text-[#00f2fe] transition">
+          <a href="mailto:skykunnu@gmail.com" className="hover:text-[#00f2fe] transition">
             <FaEnvelope />
           </a>
         </motion.div>
