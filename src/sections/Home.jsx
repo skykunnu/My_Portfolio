@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
-import Shikhar from "../assets/Shikhar.jpeg"
+import Shikhar from "../assets/Shikhar.jpeg";
+
 
 function Home() {
   return (
@@ -36,13 +37,13 @@ function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          <a href="https://github.com/skykunnu" className="hover:text-[#00f2fe] transition">
+          <a href="https://github.com/skykunnu" className="hover:text-[#00f2fe] transition" target="_blank">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/shikhar-khandelwal-a6921a160/" className="hover:text-[#00f2fe] transition">
+          <a href="https://www.linkedin.com/in/shikhar-khandelwal-a6921a160/" className="hover:text-[#00f2fe] transition" target="_blank">
             <FaLinkedin />
           </a>
-          <a href="mailto:skykunnu@gmail.com" className="hover:text-[#00f2fe] transition">
+          <a href="mailto:skykunnu@gmail.com" className="hover:text-[#00f2fe] transition" target="_blank">
             <FaEnvelope />
           </a>
         </motion.div>
@@ -54,7 +55,8 @@ function Home() {
           transition={{ delay: 1, duration: 0.8 }}
         >
           <a
-            href=""
+            href="/Resume.pdf"
+            target="_blank"
             className="inline-block px-6 py-3 border border-[#00f2fe] text-[#00f2fe] rounded hover:bg-[#00f2fe] hover:text-[#0f3460] transition duration-300"
           >
             View Resume
