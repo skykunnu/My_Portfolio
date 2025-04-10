@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Navbar() {
-  const name = "Shikhar Khandelwal";
+  const name = "Shikhar";
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#1a1a2e] via-[#16213e] to-[#0f3460] z-50 shadow-lg">
