@@ -6,12 +6,11 @@ import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Contacts from './sections/Contacts'
 import Experience from './sections/Experience'
-import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 
 function App() {
   return (
-    <HelmetProvider>
+    
     <div className="bg-[#0a192f] text-white min-h-screen font-sans">
       <Navbar />
       <Hero />
@@ -21,7 +20,6 @@ function App() {
       <Projects />
       <Contacts />
     </div>
-    </HelmetProvider>
   )
 }
 
