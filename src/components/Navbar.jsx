@@ -32,7 +32,7 @@ function Navbar() {
               key={idx}
               className="cursor-pointer hover:text-[#00f2fe] transition-colors duration-300 drop-shadow-sm"
             >
-              <a href={`#${item.toLowerCase()}`}>{item}</a>
+              <a href={`#${item.toLowerCase()}`} className='scroll-smooth'>{item}</a>
               
             </li>
           ))}
