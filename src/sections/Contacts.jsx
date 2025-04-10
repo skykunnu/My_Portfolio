@@ -28,11 +28,6 @@ function Contacts() {
             <FaPhoneAlt className="text-cyan-400" />
             <a href="tel:+919610002187" className="hover:text-cyan-400 transition">+919610002187</a>
           </motion.div>
-
-          <motion.div variants={fadeIn} className="flex items-center justify-center gap-4 text-lg">
-            <FaLinkedin className="text-cyan-400" />
-            <a href="https://www.linkedin.com/in/shikhar-khandelwal-a6921a160/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">linkedin.com/in/shikhar-khandelwal</a>
-          </motion.div>
         </motion.div>
 
         <motion.div variants={fadeIn} className="mt-10 flex justify-center gap-6 text-2xl">
