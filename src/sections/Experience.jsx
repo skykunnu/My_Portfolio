@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     company: "FSL Learning.",
-    role: "Full Stack Developer Intern",
+    role: "Developer Intern",
     duration: "Aug 2024 - Present",
     description:
       "Worked on developing responsive web applications using React.js, Tailwind CSS, and integrated APIs to enhance user experience."
