@@ -9,6 +9,9 @@ import Experience from './sections/Experience';
 
 function App() {
   useEffect(() => {
+    // Always scroll to home on page refresh
+    window.location.hash = '#home';
+
     const handleScroll = () => {
       const sections = document.querySelectorAll('section');
       const scrollPos = window.scrollY + window.innerHeight / 2;
