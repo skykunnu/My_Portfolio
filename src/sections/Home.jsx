@@ -43,7 +43,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/shikhar-khandelwal-a6921a160/" className="hover:text-[#00f2fe] transition" target="_blank">
             <FaLinkedin />
           </a>
-          <a href="mailto:skykunnu@gmail.com" className="hover:text-[#00f2fe] transition" target="_blank">
+          <a href="mailto:shikhar27khandelwal@gmail.com" className="hover:text-[#00f2fe] transition" target="_blank">
             <FaEnvelope />
           </a>
         </motion.div>

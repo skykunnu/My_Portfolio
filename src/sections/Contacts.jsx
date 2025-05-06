@@ -21,7 +21,7 @@ function Contacts() {
         <motion.div variants={fadeIn} className="mt-10 space-y-6">
           <motion.div variants={fadeIn} className="flex items-center justify-center gap-4 text-lg">
             <FaEnvelope className="text-cyan-400" />
-            <a href="mailto:skykunnu@gmail.com" className="hover:text-cyan-400 transition">skykunnu@gmail.com</a>
+            <a href="mailto:shikhar27khandelwal@gmail.com" className="hover:text-cyan-400 transition">shikhar27khandelwal@gmail.com</a>
           </motion.div>
 
           <motion.div variants={fadeIn} className="flex items-center justify-center gap-4 text-lg">
